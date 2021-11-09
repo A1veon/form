@@ -1,0 +1,16 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    background-color: white;
+}
+
+.send {
+   height: 20px;
+   width: 100px; 
+   border: 1px solid black;
+   border-radius: 3px;
+}
+
+textarea[name="info"] { 
+    resize: none;
+}
