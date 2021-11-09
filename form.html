@@ -11,31 +11,36 @@
     <header>
         <h3>Запись на курсы</h3>
     </header>
-    <hr>
+    <hr width="300px" align="left">
     <main>
         <div class="name">
-            <p>Имя:</p>
-            <input type="text" placeholder="Ваше Имя">
+            <label>Имя:<br><input type="text" name="username" value="Алексей"></label>
         </div>
+        <br>
         <div class="check">
-            <p>Язык программирования:</p>
-            <p><input name="leng" type="radio" value="C++">C ++</p>
-            <p><input name="leng" type="radio" value="PhP" checked>PHP</p>
-            <p><input name="leng" type="radio" value="Python">Python</p>
+            <label>Язык программирования:<br>
+            <input name="leng" type="radio" value="C++">C ++<br>
+            <input name="leng" type="radio" value="PhP" checked>PHP<br>
+            <input name="leng" type="radio" value="Python">Python<br>
+            </label>
         </div>
+        <br>
         <div class="detail">
-            <p>Дополнительная иформация:</p>
+            <label>Дополнительная иформация:<br>
             <textarea name="info" cols="30" rows="3" placeholder="Какой опыт программирования"></textarea>
+            </label>
         </div>
+        <br>
         <div class="pass">
-            <p>Секретное слово:</p>
+            <label>Секретное слово:<br>
             <input type="password" placeholder="Обязательно запомнить">
+            </label>
         </div>
         <br>
         <div>
-            <button class="send">Отправить</button> <button class="clear">Очистить</button>
+            <button class="send">Отправить</button> <button class="send">Очистить</button>
         </div>
-        <hr>
+        <hr width="300px" align="left">
     </main>
 
     
